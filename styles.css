@@ -380,6 +380,15 @@ textarea {
   white-space: nowrap;
 }
 
+@media (max-width: 430px) {
+  .hero h1 {
+    white-space: normal;
+    letter-spacing: -0.04em;
+    font-size: clamp(2.2rem, 11vw, 3.1rem);
+    line-height: 0.98;
+  }
+}
+
 .hero-role {
   display: flex;
   flex-wrap: wrap;
