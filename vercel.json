@@ -1,0 +1,9 @@
+{
+  "version": 2,
+  "cleanUrls": true,
+  "routes": [
+    { "src": "/health", "dest": "/api/health" },
+    { "src": "/api/contact", "dest": "/api/contact" },
+    { "src": "/(.*)", "dest": "/$1" }
+  ]
+}
