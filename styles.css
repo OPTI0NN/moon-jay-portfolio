@@ -415,8 +415,12 @@ textarea {
 .project-actions {
   display: flex;
   flex-wrap: wrap;
-  gap: 14px;
+  gap: 16px;
   margin-top: 0;
+}
+
+.project-actions {
+  margin-top: 10px;
 }
 
 .btn {
